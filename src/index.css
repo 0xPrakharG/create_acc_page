@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  body {
+    @apply bg-[#f9f9f9] h-[100%] w-[100%] overflow-hidden;
+  }
+  @layer components{
+    .inputField {
+      @apply relative h-[36px] w-[368px] left-0 right-0 top-[25px] box-border bg-[#ffffff] border-[1px] border-solid rounded-[6px] placeholder:h-[19px] placeholder:px-[12px] placeholder:pt-[10px] placeholder:font-normal placeholder:text-[14px] placeholder:leading-[18px] placeholder:text-[#a0a0a0];
+    }
+    .labelName {
+      @apply absolute w-[105px] h-[17px] font-Inter flex items-center font-medium text-[14px] leading-[17px] text-[#545454];
+    }
+    .options {
+      @apply bg-[#f0f0f0] px-2 py-1 h-[25px] text-[#545454] text-[14px] text-center flex items-center rounded-[2px];
+    }
+  }
 }

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Content from "./Content";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <img src="./images/logo.svg" alt="wobot.ai_logo" className="absolute w-[160px] h-[36.02px] left-[60px] top-[60px]"/>
+      <Content/>
+      <div className="absolute w-[1720.59px] h-[1216.17px] left-[-124.11px] top-[-169.36px] -z-10">
+        <div className="absolute w-[769.01px] h-[13.44px] left-[870px] top-[617.51px] bg-[#3766e8] opacity-[0.2] rotate-[-30deg]"></div>
+        <div className="absolute w-[769.01px] h-[13.44px] left-[-124.11px] top-[723.3px] bg-[#3766e8] opacity-[0.2] rotate-[-30deg]"></div>
+        <div className="absolute w-[1852.96px] h-[392.25px] left-[-117.75px] top-[451.51px] bg-[#f0f0f0] opacity-[0.45] rotate-[-30deg]"></div>
+      </div>
+      <div className="absolute font-Roboto text-[14px] w-[185px] h-[19px] left-[627px] top-[747px]">Terms of use | Privacy policy</div>
     </div>
   );
 }
