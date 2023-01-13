@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#f9f9f9] h-[100%] w-[100%] overflow-hidden;
+    @apply bg-[#f9f9f9] h-[100%] w-[100%] overflow-x-hidden;
   }
   @layer components{
     .inputField {

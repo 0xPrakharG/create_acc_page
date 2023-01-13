@@ -12,7 +12,7 @@ function Content() {
             <div className='absolute left-[46.70%] top-[9.75%] bg-[#3766e8] rounded-[100px] w-[11.05px] h-[27.84px] rotate-[-31.3deg]'></div>
             {/* <img src="./images/logo2.svg" alt="" /> */}
           </div>
-          <h3 className='h-[60px] w-[378px] font-Roboto not-italic font-medium text-[26px] leading-[30px] text-center text-[#212121] flex-none order-2 self-stretch'>It's a delight to have you <br />onborad</h3>
+          <h3 className='h-[60px] w-[378px] font-Roboto not-italic font-medium text-[26px] leading-[30px] text-center text-[#212121] flex-none order-2 self-stretch'>It's a delight to have you <br />onboard</h3>
         </div>
         <p className='h-[60px] w-[378px] font-Roboto not-italic font-normal text-[14px] leading-[18px] text-center text-[#545454] flex-none order-2'>Help us know you better.<br />(This is how we optimize Wobot as per your business needs)</p>
       </div>
